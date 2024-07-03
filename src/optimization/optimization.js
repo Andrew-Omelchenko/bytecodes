@@ -8,5 +8,5 @@ function myMax() {
 
 // Makes myMax 'hot' for the compiler
 for (let i = 0; i < 2000; i++) {
-  myMax(...arr)
+  myMax(...arr);
 }
